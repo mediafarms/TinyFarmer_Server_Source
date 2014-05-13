@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <device>pcduino</device> <!-- pc, pcduino -->   
+    <server_ip>106.240.234.10</server_ip>
+    <server_port>7000</server_port>
+    <serial_port>/dev/ttyS1</serial_port>
+    <close_server_port>9901</close_server_port>
+    <id_info_path>/home/ubuntu/Mediafarm/MediafarmSetup/config/TinyFarmer.xml</id_info_path> <!-- pc: device id xml file path-->
+    <cpp_file_path>/home/ubuntu/Arduino/pcduino_io.cpp</cpp_file_path>
+<alive_time>40000</alive_time><!-- alive time(millsecond) -->
+</config>
